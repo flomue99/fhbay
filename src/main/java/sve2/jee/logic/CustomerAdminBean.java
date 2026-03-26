@@ -3,8 +3,9 @@ package sve2.jee.logic;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
+import org.slf4j.Logger;
 import sve2.jee.domain.Customer;
-import sve2.jee.util.Logger;
+
 
 import java.util.List;
 

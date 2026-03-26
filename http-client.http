@@ -1,5 +1,5 @@
 @host = http://localhost:8080
 
 ### Get all customers
-GET {{host}}/api/customers
+GET {{host}}/customers
 Accept: application/json
