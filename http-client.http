@@ -3,3 +3,7 @@
 ### Get all customers
 GET {{host}}/customers
 Accept: application/json
+
+### init
+POST {{host}}/customers/init
+Content-Type: application/json

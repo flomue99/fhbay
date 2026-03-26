@@ -7,7 +7,7 @@ import java.util.List;
 public interface CustomerAdmin {
 
 
-    boolean existsCustomer(String username);
+    boolean existsCustomer(Customer customer);
 
     Customer findCustomerById(long id) throws IdNotFoundException;
 
